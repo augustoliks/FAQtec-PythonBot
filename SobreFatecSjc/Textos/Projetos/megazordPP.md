@@ -1,0 +1,2 @@
+*Por que participar?*
+Porque é a chance de aplicar na prática os conhecimentos adquiridos em sala de aula. Ao participar do projeto SAE Aerodesign o aluno se envolve com um caso real de desenvolvimento de projeto aeronáutico, desde sua a concepção, projeto detalhado, construção e testes. E o mais estimulante é que as equipes vencedoras são convidadas a participar da competição internacional, nos *Estados Unidos!*

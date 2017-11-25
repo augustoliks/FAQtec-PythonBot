@@ -1,0 +1,3 @@
+*REQUISITOS:*
+Para ser aluno da Fatec Profº Jessen Vidal (SJC), é necessário que tenha concluído o ensino médio, e também é necessário a realização de uma prova (Vestibular) que os vestibulandos terão em concorrência, a disputa da vagas do respectivo curso pelo qual quer ingressar,
+a Inscrição para o vestibular é feita [neste link](http://www.vestibularfatec.com.br/home/), também é possível utilizar a nota do ENEM para critérios de cálculo de nota final, basta preencher no ato da inscrição, o local da Prova é anunciado em tanto na Fatec-SJC quanto no [site oficial](http://www.vestibularfatec.com.br/home/), vale ressaltar que não haverá envio de convocação pelos Correios, por e-mail ou por quaisquer outros meios, fique atento.
