@@ -5,6 +5,10 @@ Bot proposto na aula de Interacão Humano Computador
 
 **Para o bot responder comandos no telegram é necessário inserir o token gerado pelo bot father no arquivo "token.json". Substituindo a o valor da chave "token", para o token do bot**
 
+# Incompatibilidade com WINDOWS
+
+**Por algum motivo de _encode_ de caracter, quando o bot é executado no Windows ele apresenta erro no corpo dos textos (Markdown) para o usuário**
+
 >>> Documentação:
 
 http://telepot.readthedocs.io/en/latest/reference.html
