@@ -1,5 +1,5 @@
 # BotTelegram
-Bot proposto na aula de Interacao Humano Computador
+Bot proposto na aula de Interacão Humano Computador
 
 # Sobre o erro "Traceback (most recent call last):"
 
@@ -20,3 +20,7 @@ https://github.com/python-telegram-bot/python-telegram-bot/wiki/Code-snippets
 https://github.com/python-telegram-bot/python-telegram-bot/tree/master/examples
 
 https://github.com/unreal4u/telegram-api/tree/master/examples
+
+https://github.com/giulianobertoti/EducationalTelegramBOT
+
+https://github.com/M3nin0/PyBot

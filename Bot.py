@@ -6,8 +6,10 @@ load = open("token.json")   # Lendo o Json que contém o token do bot
 token = json.loads(load.read()) # Inserindo o token bot a variavel "token"
 bot = telepot.Bot(token['token'])   # Inserindo o token no Bot
 
+'''SOBRE: condicoes
+Pega o a interacao do usuario (via mensagem ou botao), e faz alguma tomada de acao
+'''
 def condicoes(chatID, msg):
-        #    tipoMsg, tipoChat, chatID = telepot.glance(msg) #Forma facilitada pela biblioteca do
             if(msg == '/start'):
                     inicio(chatID, bot)
 
@@ -197,15 +199,14 @@ def condicoes(chatID, msg):
                     bot.sendMessage(chatID,"Todas as informações mais relevantes sobre a como se tornar aluno estão aqui...", reply_markup=keyboard)
 
             elif(msg == 'Como se Inscrever'):
-                    txtHelp = open('ComoSerAluno\Textos\comoSeInscrever.md','r')	#Abre o arquivo Hello.md com o atributo leitura
-                    bot.sendMessage(chatID,txtHelp.read(),'Markdown')	#Envia mensagem com o conteúdo do arquivo Help.txt
-                    txtHelp.close()	#Fecha o arquivo
+                    txt = open('ComoSerAluno/Textos/comoSeInscrever.md','r')	#Abre o arquivo Hello.md com o atributo leitura
+                    bot.sendMessage(chatID,txt.read(),'Markdown')	#Envia mensagem com o conteúdo do arquivo Help.txt
+                    txt.close()	#Fecha o arquivo
 
                     bot.sendMessage(chatID, "Enviando Manual do candidato...")
                     doc = open ("ComoSerAluno/manualCandidato.pdf",'rb')
                     bot.sendDocument(chatID, doc)
                     doc.close()
-
 
             elif(msg == 'Provas Anteriores'):
                     bot.sendMessage(chatID, "Enviando Prova do 1 semestre de 2017...")
@@ -481,23 +482,53 @@ def condicoes(chatID, msg):
             elif (msg == 'Voltar'):
                     inicio(chatID, bot)
 
-
+'''SOBRE: callback
+O parametro desta funcao eh um Json enviado do message_loop com os campos referente a interacao feita via a chave 'callback_query', ou seja, esta funcao eh responsavel por
+por pegar o que foi emitido pelo usuario (texto iniline_keyboard) e seu respectivo ID, e repassar para a funcao 'condicoes' e que sera processado a requisicao
+e sera emitido o devido comportamento que o usuario quer em relacao ao bot
+'''
 def callback(msg):
             query_id, from_id, query_data = telepot.glance(msg, flavor="callback_query")
-            chatID = from_id
-            texto = query_data
-            print(chatID)
-            bot.answerCallbackQuery(query_id, text="Só um instante")
-            print("callback query", query_id, from_id, query_data)
-            condicoes(chatID, texto)
+            #Forma facilitada pela biblioteca "telepot" de quebrar inserir as informacoes para as respectivas variaveis
+            #Ou seja, pega o Json com a chave callback_queryt' e quebra as informacoes em tres jogando o valor de 'text' para a variavel tipoMsg,
+            #assim por adiante...
 
+            chatID = from_id
+            #ID do usuario que apertou o botao
+
+            texto = query_data
+            #o valor do botao que foi apertado
+
+            print(chatID)
+
+            bot.answerCallbackQuery(query_id, text="Só um instante")
+            #retorna um POP-UP para o usuario quando ele digitou alguma coisa
+
+            print("callback query", query_id, from_id, query_data)
+
+            condicoes(chatID, texto)
+            # pega o que foi clicado pelo usuario (callback_data) e seu ID manda para a funcao 'condicoes' que vai processar o clique
+
+
+'''SOBRE: ir
+O parametro desta funcao eh um Json enviado do message_loop com os campos referente a interacao via a chave 'chat', ou seja, esta funcao eh responsavel por
+por pegar o que foi emitido pelo usuario (texto via mensagem) e seu respectivo ID, e repassar para a funcao  'condicoes' e que sera processado a requisicao
+e sera emitido o devido comportamento que o usuario quer em relacao ao bot
+'''
 def ir(msg):
+            #Forma facilitada pela biblioteca "telepot" de quebrar inserir as informacoes para as respectivas variaveis
+            #Ou seja, pega o Json com a chave 'chat' e quebra as informacoes em tres jogando o valor de 'text' para a variavel tipoMsg,
+            #assim por adiante...
             tipoMsg, tipoChat, chatID = telepot.glance(msg)
 
-            texto = msg['text']
-            condicoes(chatID, texto)
+            texto = msg['text']     #variavel Auxiliar para receber a texto que o usuario digitou, fiz ela porque se eu chamasse --condicoes(chatID, msg['text'])--
+                                    #tava dando erro
 
+            condicoes(chatID, texto)    # pega o que foi digitado pelo usuario e seu ID manda para a funcao 'condicoes' que vai processar o a mensagem
 
+'''SOBRE: inico
+Esta funcao eh uma forma de facilitar o a primeira interacao ao usuario
+'''
 def inicio(chatID, bot):
             keyboard=ReplyKeyboardMarkup(
                         keyboard=[
@@ -514,6 +545,11 @@ def inicio(chatID, bot):
             bot.sendMessage(chatID,txt.read(),'Markdown',reply_markup=keyboard)
             txt.close()
 
+''' SOBRE: message_loop
+o message_loop eh o "listenen" das interacoes dos usuarios com o bot, ele retorna um Json, que quando uma interacao eh feita via mensagem,
+recorre a chave 'chat' e redireciona o comportamento do bot para a funcao "ir", e quando uma interacao eh feita via inline_keyboard (callback_query)
+recorre a chave callback
+'''
 bot.message_loop(
     {
         'chat': ir,
@@ -521,5 +557,7 @@ bot.message_loop(
     }
 )
 
+#responsavel por deixa o programa sempre em execucao, mas quando ocorre uma interacao, o message_loop e invocado, e quebra este laco infinito,
+#e faz o comportamento requirido pelo usuario
 while True:
             pass

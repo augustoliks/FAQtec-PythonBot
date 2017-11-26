@@ -6,8 +6,8 @@ A Fatec prof Jessen Vidal se localiza próximo ao parque Tecnológico de São Jo
 *Ônibus:* Para quem quiser ir de ônibus terá que pegar o ônibus "Eugênio de Melo-FATEC" que parte da rodoviária velha às 6:00
 
 *Vans:* Há diversas vans que fazem transporte de alunos para Fatec:
--> Van de Glauber: Faz transporte de alunos de Jacareí e São José
-    WhatsApp: (12)913245768
+-> *Van de Glauber:* Faz transporte de alunos de Jacareí e São José
+    WhatsApp: (12)981597024
 
--> ~Transão Dimas~: Faz transporte de alunos de Caçapava
+-> *Transão Dimas:* Faz transporte de alunos de Caçapava
     WhatsApp: (11)91325445
