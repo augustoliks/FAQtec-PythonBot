@@ -5,7 +5,7 @@ O tecnólogo em Gestão da Produção Industrial trabalha para melhorar a qualid
 Em indústrias no comércio; na direção do próprio negócio; na prestação de serviços de assessoria e na pesquisa tecnológica.
 
 *VAGAS:*
-40 Vagas no Período da Noite com Duração de 06 semestres
+40 Vagas no Período da Noite com Duração de 06 semestres.
 
 *Remuneração Média:*
 Depende do porte da empresa:

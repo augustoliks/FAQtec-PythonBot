@@ -1,6 +1,6 @@
 # FAQtec Bot :school_satchel:
 
-Bot proposto na aula de Interacão Humano Computador, que tem como objetivo auxiliar novos alunos da Fatec.
+Bot criado para fins acadêmicos, como proposta de trabalho semestral da disciplina Interação Humano Computador lecionada pelo Profº Me. Giuliano Bertoti em 2017, na instituição de ensino Fatec Professor Jessen Vidal (São José dos Campos)
 
 ## Erros
 

@@ -5,7 +5,7 @@ O Tecnólogo em Banco de Dados projeta e administra esse complexo arquivo que ar
 Empresas públicas e privadas, instituições financeiras, consultorias, indústrias e empresas especializadas em Tecnologia da Informação.
 
 *VAGAS:*
-40 Vagas no Período da Noite com Duração de 06 semestres
+40 Vagas no Período da Noite com Duração de 06 semestres.
 
 *Remuneração Média*
 Os salários dos administradores de banco de dados podem variar 963,52%, de R$ 762 a R$ 8.104, dependo do grau de experiência do profissional. Segundo a tabela salarial da _Catho_, os profissionais com cargos de gerência ganham, em média, quase R$ 1 mil a mais do que os com cargo de coordenação.

@@ -5,7 +5,7 @@ O Tecnólogo em Logística é o profissional que gerencia o fluxo de produtos ou
 Existe um extenso campo de trabalho na área, como indústrias, supermercados, lojas, hospitais, órgãos públicos de mobilidade urbana, empresas especializadas (operadores logísticos), empresas da área de transportes e empresas de comércio eletrônico. Cada vez mais os serviços de logística têm sido terceirizados, o que abre espaço para as empresas especializadas no setor.
 
 *VAGAS:*
-40 Vagas (Período da Manhã) e 40 Vagas (Período da Noite) com Duração de 06 semestres
+40 Vagas (Período da Manhã) e 40 Vagas (Período da Noite) com Duração de 06 semestres.
 
 *Remuneração Média:*
 Os piso salariais para profissionais de Logística que atuam em empresas de pequeno e médio porte são os seguintes: Coordenador de Logística: R$ 7.533. Analista de Logística: R$ 2.939. Assistente de Logística: R$ 2.505.

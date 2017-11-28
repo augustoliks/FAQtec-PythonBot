@@ -370,6 +370,19 @@ def condicoes(chatID, msg):
                     bot.sendMessage(chatID,txt.read(),'Markdown')
                     txt.close()
 
+            elif (msg=="Cimatech"):
+                    bot.sendMessage(chatID, "Aguarde um instante...")
+
+                    txt = open('SobreFatecSjc/Textos/Projetos/cimatech.md','r')
+                    img = open("SobreFatecSjc/imgProjetosInternos/imgCimatech.png","rb")
+                    bot.sendPhoto(chatID, img, txt.read())
+                    txt.close()
+                    img.close()
+
+                    txtPP = open('SobreFatecSjc/Textos/Projetos/cimatechPP.md','r')
+                    bot.sendMessage(chatID,txtPP.read(),'Markdown')
+                    txtPP.close()
+
             elif (msg=="Escola de Inovadores"):
                     bot.sendMessage(chatID, "Aguarde um instante...")
                     bot.sendSticker(chatID, "CAADAQADNQYAAjN-VQp9fRoNVhK8sQI")

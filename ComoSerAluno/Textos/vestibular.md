@@ -6,6 +6,6 @@
 
 5 questões com a finalidade de verificar a capacidade de raciocínio lógico do candidato;
 
-9 questões que proporão a articulação de conhecimentos das disciplinas de Ensino Médio, para a solução de situações-problema.
+9 questões que proporão a articulação de conhecimentos das disciplinas de Ensino Médio, para a solução de situações-problema;
 
-8 conjuntos de questões terão peso 1 (um) e 2 (dois) conjuntos terão peso 2 (dois)
+8 conjuntos de questões terão peso 1 (um) e 2 (dois) conjuntos terão peso 2 (dois).

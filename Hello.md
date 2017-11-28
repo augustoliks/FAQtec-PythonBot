@@ -8,13 +8,13 @@ Descricao de todas os cursos disponiveis, sua respectiva area de atuacao e remun
 Curriculo dos professores
 
 *Sobre Disciplinas:*
-Emenda da disciplina 
+Emenda da disciplina
 
 *Projetos internos:*
 Projetos oferecidos aos alunos, escola de inovadores, parcerias com parque tecnologico, alunos monitores, entre outros
 
 *Empresas parceiras:*
-Ha diversas empresas parceiras da FATEC, conheca a lista das principais parceiras 
+Ha diversas empresas parceiras da FATEC, conheca a lista das principais parceiras
 
 *Como chegar na FATEC:*
 Forma de chegar na FATEC, linhas de onibus e caronas

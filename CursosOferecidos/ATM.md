@@ -1,7 +1,5 @@
 *Resumo:*
-O Tecnólogo em Manufatura Avançada é o profissional que irá criar e/ou gerenciar projetos de desenvolvimento integrado de manufatura, tendo em vista a concepção ou a melhoria de processos de produção. Atua como integrador de tecnologias e conceitos, a fim de transformar ambientes de manufatura convencional em ambientes de manufatura avançada.
-Mais informações sobre o curso CLIQUE AQUI.
-
+O Tecnólogo em Manufatura Avançada/Automação e manufatura, é o profissional que irá criar e/ou gerenciar projetos de desenvolvimento integrado de manufatura, tendo em vista a concepção ou a melhoria de processos de produção. Atua como integrador de tecnologias e conceitos, a fim de transformar ambientes de manufatura convencional em ambientes de manufatura avançada. Mais informações sobre o curso [CLIQUE AQUI](http://fatecsjc-prd.azurewebsites.net/downloads/cursos/2017.11.10_apresentacao_manufatura_avancada.pdf).
 
 *Onde este tecnólogo poderá trabalhar?*
 Esse profissional tem um amplo mercado de atuação no aperfeiçoamento do processo industrial nos setores de manufatura incluindo, aeroespacial, automotiva, metal-mecânico, eletrônica e de energia. Como empreendedor, pode abrir sua própria consultoria ou empresa. Pode ainda atuar em pesquisas.
