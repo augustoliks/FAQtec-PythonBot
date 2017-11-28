@@ -199,8 +199,8 @@ def condicoes(chatID, msg):
                     bot.sendMessage(chatID,"Todas as informações mais relevantes sobre a como se tornar aluno estão aqui...", reply_markup=keyboard)
 
             elif(msg == 'Como se Inscrever'):
-                    txt = open('ComoSerAluno/Textos/comoSeInscrever.md','r')	#Abre o arquivo Hello.md com o atributo leitura
-                    bot.sendMessage(chatID,txt.read(),'Markdown')	#Envia mensagem com o conteúdo do arquivo Help.txt
+                    txt = open('ComoSerAluno/Textos/comoSeInscrever.md','r')	#Abre o arquivo comoSeInscrever.md com o atributo leitura
+                    bot.sendMessage(chatID,txt.read(),'Markdown')	#Envia mensagem com o conteúdo do arquivo 'txt'
                     txt.close()	#Fecha o arquivo
 
                     bot.sendMessage(chatID, "Enviando Manual do candidato...")
@@ -230,8 +230,8 @@ def condicoes(chatID, msg):
                     doc.close()
 
             elif(msg == 'Vestibular'):
-                    txtHelp = open('ComoSerAluno/Textos/vestibular.md','r')	#Abre o arquivo Hello.md com o atributo leitura
-                    bot.sendMessage(chatID,txtHelp.read(),'Markdown')	#Envia mensagem com o conteúdo do arquivo Help.txt
+                    txtHelp = open('ComoSerAluno/Textos/vestibular.md','r')	#Abre o arquivo Hellovestibular.md com o atributo leitura
+                    bot.sendMessage(chatID,txtHelp.read(),'Markdown')	#Envia mensagem com o conteúdo do arquivo 'txtHelp.txt'
                     txtHelp.close()	#Fecha o arquivo
 
                     bot.sendMessage(chatID,'''Geralmente o vestibular ocorre nas escolas Estevam Ferri(Endereço: R. Cantídio Miragaia, 100 - Monte Castelo, São José dos Campos - SP, 12215-110)\nMarechal Rondon (Endereço: Praça Francisco Escobar, 165 - Monte Castelo, São José dos Campos - SP, 12215-170)\nambas em São José dos Campos''')
@@ -244,7 +244,7 @@ def condicoes(chatID, msg):
 
 ########################### COMO CHEGAR
             elif (msg == 'Como Chegar'):
-                    txtHelp = open('ComoChegar/Textos/txt01.md','r')	#Abre o arquivo Hello.md com o atributo leitura
+                    txtHelp = open('ComoChegar/Textos/txt01.md','r')
 
                     keyboard=ReplyKeyboardMarkup(
                         keyboard=[
@@ -274,7 +274,7 @@ def condicoes(chatID, msg):
 
 ########################### SOBRE A FATEC
             elif (msg == 'Sobre a Fatec'):
-                    txtHelp = open('SobreFatecSjc/Textos/introducaoSobreAFatec.md','r')	#Abre o arquivo Hello.md com o atributo leitura
+                    txtHelp = open('SobreFatecSjc/Textos/introducaoSobreAFatec.md','r')
                     keyboard=ReplyKeyboardMarkup(
                         keyboard=[
                             [
@@ -554,7 +554,7 @@ def inicio(chatID, bot):
                         ],resize_keyboard=True
                     )
 
-            txt = open('Inicializacao/Hello.md','r')
+            txt = open('Inicializacao/Hello.md','r')    #Abre o arquivo Hello.md com o atributo leitura
             bot.sendMessage(chatID,txt.read(),'Markdown',reply_markup=keyboard)
             txt.close()
 
