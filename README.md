@@ -1,5 +1,6 @@
-# BotTelegram
-Bot proposto na aula de Interacão Humano Computador
+# FAQtec Bot :school_satchel:
+
+Bot proposto na aula de Interacão Humano Computador, que tem como objetivo auxiliar novos alunos da Fatec.
 
 ## Erros
 
